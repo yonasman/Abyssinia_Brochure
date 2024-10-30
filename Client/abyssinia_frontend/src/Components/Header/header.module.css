@@ -1,6 +1,20 @@
 .header_container {
     height: 80px;
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+.header_links {
+    width: 30%;
+}
+.header_links ul {
+    display: flex;
+    justify-content: space-between;
+}
+.header_links ul {
+    list-style: none;
 }
