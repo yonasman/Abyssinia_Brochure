@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 .abyssinia_logo img {
-    width: 65px;
+    width: 100px;
 }
 .header_links ul {
     display: flex;
@@ -31,10 +31,11 @@
 }
 .header_links ul li {
     background-color: #f7f7f7c4;
-    padding: 6px 12px;
+    padding: 6px 14px;
     border-radius: 15px;
     cursor: pointer;
 }
 .header_links ul li:hover {
     background-color: #63c0e8;
+    color: #fff;
 }

@@ -1,5 +1,5 @@
 import styles from './header.module.css'
-import logo from '../../assets/Images/abylogo.jpg'
+import logo from '../../assets/Images/aby_circle_logo.png'
 function Header() {
   return (
     <>

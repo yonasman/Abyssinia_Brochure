@@ -1,21 +1,32 @@
 .landingBgContainer {
     max-width: 100vw;
-    height: 100vh;
+    height: 104vh;
     background: url('../../../assets/Images/view-3d-young-school-student-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* border-bottom-left-radius: 100% 38%;
-    border-bottom-right-radius: 100% 38%; */
     overflow: hidden;
     position: relative;
 }
-.landingBgContainer::after {
-    content: '';
-    background-color: rgba(253, 255, 255,0.6);
+.aby_text {
+    color: #fff;
+    font-size: 50px;
     position: absolute;
-    display: block;
-    height: 20px;
-    width: 100%;
-    top: 98vh;
+    top: 83%;
+    left: 22%;
+}
+.visible {
+    display: inline;
+    padding-left: 4px;
+}
+.landingBgContainer span {
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+}
+.hidden {
+    display: none;
+}
+body {
+    height: 1000px;
 }
