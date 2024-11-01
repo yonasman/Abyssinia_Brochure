@@ -1,0 +1,21 @@
+.landingBgContainer {
+    max-width: 100vw;
+    height: 100vh;
+    background: url('../../../assets/Images/view-3d-young-school-student-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-bottom-left-radius: 100% 38%;
+    border-bottom-right-radius: 100% 38%; */
+    overflow: hidden;
+    position: relative;
+}
+.landingBgContainer::after {
+    content: '';
+    background-color: rgba(253, 255, 255,0.6);
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 100%;
+    top: 98vh;
+}

@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Home/>
-      <div>ABYSSINIA TUTORS AND TRAINING CENTER</div>
+      
     </>
   )
 }
