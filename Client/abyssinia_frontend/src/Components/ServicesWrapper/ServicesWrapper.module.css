@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin-top: 35px;
+}
+h1::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1px;
+    margin: 8px auto;
+    background-color: #c2c5c5;
+}
+
+.servicesWrapper {
+    display: block;
+}
+@media screen and (min-width:768px) {
+    .servicesWrapper {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+}

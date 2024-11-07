@@ -1,0 +1,43 @@
+.cardContainer {
+    width: 300px;
+    margin: 20px auto;
+}
+.cardContainer div img {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+}
+.cardContainer div:first-child {
+    background-color: #f7f5f5e6;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0.1px #00000028;
+    transition: transform 0.3s ease;
+}
+.cardContainer div:first-child:hover {
+    transform: scale(1.1);
+    background-color: #b1f2f4;
+}
+.cardContainer p {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+.cardContainer div p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 24px;
+}
+@media screen and (min-width:768px) {
+    .cardContainer p {
+        font-size: 17px;
+    }
+    .cardContainer div p:first-child {
+        font-size: 24px;
+    }
+}
