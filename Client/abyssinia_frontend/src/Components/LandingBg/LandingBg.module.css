@@ -10,10 +10,12 @@
 }
 .aby_text {
     color: #fff;
-    font-size: 50px;
+    font-size: 23px;
     position: absolute;
-    top: 83%;
-    left: 22%;
+    top: 70%;
+    left: 7%;
+    padding: 0 7px;
+    text-align: center;
 }
 .visible {
     display: inline;
@@ -29,4 +31,24 @@
 }
 body {
     height: 1000px;
+}
+@media screen and (min-width:546px) and (max-width:767px) {
+    .aby_text {
+        color: #fff;
+        font-size: 35px;
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        padding: 0 7px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {   
+    .aby_text {
+        color: #fff;
+        font-size: 50px;
+        top: 83%;
+        left: 22%;
+    }
 }

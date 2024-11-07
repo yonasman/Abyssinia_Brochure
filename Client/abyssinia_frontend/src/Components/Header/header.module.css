@@ -31,7 +31,7 @@
     z-index: 1000;
     margin: 0 auto;
     position: fixed;
-    left: 22px;
+    left: 7%;
 }
 .header_links {
     width: 100px;
@@ -60,18 +60,24 @@
     background-color: #63c0e8;
     color: #fff;
 }
+@media screen and (min-width:546px) and (max-width:767px) {
+    .header_links ul li {
+        background-color: #f7f7f7c4;
+        padding: 2px 26px;
+    }
+}
 @media screen and (min-width:768px) {
     .header_links {
-        width: 40%;
+        width:55%;
     }
     .header_container {
-        left: 100px;
+        left: 7%;
     }
     .header_links ul {
         flex-direction: row;
     }
     .header_links ul li {
-        padding: 6px 14px;
+        padding: 6px 17px;
         font-size: 15px;
     }
 }
