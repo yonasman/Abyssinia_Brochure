@@ -8,15 +8,33 @@
     font-size: 17px;
     border-radius: 20px;
     backdrop-filter: blur(3px);
-    position: absolute;
     top: 15px;
     z-index: 1000;
     margin: 0 auto;
-    left: 100px;
+    position: fixed;
+}
 
+.abyssinia_logo img {
+    width: 100px;
+}
+.header_container {
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    top: 15px;
+    z-index: 1000;
+    margin: 0 auto;
+    position: fixed;
+    left: 22px;
 }
 .header_links {
-    width: 40%;
+    width: 100px;
     font-weight: bold;
 }
 .abyssinia_logo img {
@@ -24,6 +42,7 @@
 }
 .header_links ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 .header_links ul {
@@ -31,11 +50,28 @@
 }
 .header_links ul li {
     background-color: #f7f7f7c4;
-    padding: 6px 14px;
+    padding: 2px 30px;
     border-radius: 15px;
     cursor: pointer;
+    font-size: 10px;
+    margin-bottom: 2px;
 }
 .header_links ul li:hover {
     background-color: #63c0e8;
     color: #fff;
+}
+@media screen and (min-width:768px) {
+    .header_links {
+        width: 40%;
+    }
+    .header_container {
+        left: 100px;
+    }
+    .header_links ul {
+        flex-direction: row;
+    }
+    .header_links ul li {
+        padding: 6px 14px;
+        font-size: 15px;
+    }
 }

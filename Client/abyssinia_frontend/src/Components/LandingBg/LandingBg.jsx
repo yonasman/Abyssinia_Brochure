@@ -1,4 +1,4 @@
-import styles from '../LandingBg/LandingBg.module.css'
+import styles from './LandingBg.module.css'
 import { useState, useEffect } from 'react'
 
 function LandingBg() {

@@ -1,5 +1,5 @@
 import Header from "../Components/Header/Header"
-import LandingBg from "../Components/Header/LandingBg/LandingBg"
+import LandingBg from "../Components/LandingBg/LandingBg"
 
 function Home() {
   return (
