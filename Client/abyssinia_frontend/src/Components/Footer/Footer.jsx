@@ -6,10 +6,11 @@ function Footer() {
   return (
     <>
       <div className={styles.footer_container}>
-            <div>
+        <div className={styles.contents_container}>
+        <div className={styles.left_footer_wrapper}>
                 <img src={logo} alt="abyssinia logo" />
                 <p>Abyssinia Tutors and Training Center is an educational institution offering a wide range of learning experiences, from foundational education to specialized skill development, empowering learners of all ages to achieve academic and personal growth.</p>
-                <div>
+                <div className={styles.social_media_icons_wrapper}>
                     <a href=""><FaFacebook/></a>
                     <a href=""><FaInstagram/></a>
                     <a href=""><FaLinkedin/></a>
@@ -17,22 +18,27 @@ function Footer() {
                     <a href=""><FaTiktok/></a>
                 </div>
             </div>
-            <div>
+            <div className={styles.right_footer_wrapper}>
+              <div className={styles.left_links_wrapper}>
+                <p>About</p>
+                  <ul>
+                      <a href="#"><li>Home</li></a>
+                      <a href="#"><li>Services</li></a>
+                      <a href="#"><li>Contact</li></a>
+                      <a href="#"><li>Team</li></a>
+                  </ul>
+              </div>
+              <div className={styles.right_links_wrapper}>
+              <p>Help</p>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <a href="#"><li>Privacy Policy</li></a>
+                    <a href="#"><li>Terms and conditions</li></a>
+                    <a href="#"><li>Partners</li></a>
                 </ul>
+              </div>
             </div>
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+        </div>
+        <p>&copy;2024 All rights reserved</p>
       </div>
     </>
   )
